@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6073B7A81D08CDCE002DE928 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */; };
 		60DF12731D00285C00AEEB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF12721D00285C00AEEB30 /* AppDelegate.swift */; };
 		60DF12751D00285C00AEEB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF12741D00285C00AEEB30 /* ViewController.swift */; };
 		60DF12781D00285C00AEEB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DF12761D00285C00AEEB30 /* Main.storyboard */; };
 		60DF127B1D00285C00AEEB30 /* hoc22.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60DF12791D00285C00AEEB30 /* hoc22.xcdatamodeld */; };
 		60DF127D1D00285C00AEEB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DF127C1D00285C00AEEB30 /* Assets.xcassets */; };
 		60DF12801D00285C00AEEB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DF127E1D00285C00AEEB30 /* LaunchScreen.storyboard */; };
+		7CBC8AF25BCB14ABDB80A7A7 /* Pods_hoc22.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB89430FC9FE1FB9BA94266F /* Pods_hoc22.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		60DF126F1D00285B00AEEB30 /* hoc22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoc22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DF12721D00285C00AEEB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DF12741D00285C00AEEB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		60DF127C1D00285C00AEEB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60DF127F1D00285C00AEEB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60DF12811D00285C00AEEB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8250160F29C2D9FC0332F85E /* Pods-hoc22.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoc22.release.xcconfig"; path = "Pods/Target Support Files/Pods-hoc22/Pods-hoc22.release.xcconfig"; sourceTree = "<group>"; };
+		BB89430FC9FE1FB9BA94266F /* Pods_hoc22.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hoc22.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29EB8445262847E4E450B54 /* Pods-hoc22.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoc22.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hoc22/Pods-hoc22.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBC8AF25BCB14ABDB80A7A7 /* Pods_hoc22.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				60DF12711D00285B00AEEB30 /* hoc22 */,
 				60DF12701D00285B00AEEB30 /* Products */,
+				656986040AC47D129181063D /* Pods */,
+				DC1338CF971DED807A7CE2BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +67,7 @@
 			children = (
 				60DF12721D00285C00AEEB30 /* AppDelegate.swift */,
 				60DF12741D00285C00AEEB30 /* ViewController.swift */,
+				6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */,
 				60DF12761D00285C00AEEB30 /* Main.storyboard */,
 				60DF127C1D00285C00AEEB30 /* Assets.xcassets */,
 				60DF127E1D00285C00AEEB30 /* LaunchScreen.storyboard */,
@@ -67,6 +77,23 @@
 			path = hoc22;
 			sourceTree = "<group>";
 		};
+		656986040AC47D129181063D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E29EB8445262847E4E450B54 /* Pods-hoc22.debug.xcconfig */,
+				8250160F29C2D9FC0332F85E /* Pods-hoc22.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC1338CF971DED807A7CE2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB89430FC9FE1FB9BA94266F /* Pods_hoc22.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60DF12841D00285C00AEEB30 /* Build configuration list for PBXNativeTarget "hoc22" */;
 			buildPhases = (
+				C81002F89F9369AE6F17C448 /* [CP] Check Pods Manifest.lock */,
 				60DF126B1D00285B00AEEB30 /* Sources */,
 				60DF126C1D00285B00AEEB30 /* Frameworks */,
 				60DF126D1D00285B00AEEB30 /* Resources */,
+				BFBD06DE1BF64FA673A768B4 /* [CP] Embed Pods Frameworks */,
+				3E25EDD50B23B85368736260 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +129,12 @@
 				TargetAttributes = {
 					60DF126E1D00285B00AEEB30 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2W3P634BS8;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -133,6 +169,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E25EDD50B23B85368736260 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hoc22/Pods-hoc22-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBD06DE1BF64FA673A768B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hoc22/Pods-hoc22-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81002F89F9369AE6F17C448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60DF126B1D00285B00AEEB30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +224,7 @@
 			files = (
 				60DF12751D00285C00AEEB30 /* ViewController.swift in Sources */,
 				60DF127B1D00285C00AEEB30 /* hoc22.xcdatamodeld in Sources */,
+				6073B7A81D08CDCE002DE928 /* MainTabBarController.swift in Sources */,
 				60DF12731D00285C00AEEB30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +269,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Markim Shaw (AW3Q93R3W4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Markim Shaw (AW3Q93R3W4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -206,6 +292,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "b2c1a749-02ba-49ac-bc6b-34b31051ff32";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -251,23 +338,31 @@
 		};
 		60DF12851D00285C00AEEB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29EB8445262847E4E450B54 /* Pods-hoc22.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Markim Shaw (AW3Q93R3W4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Markim Shaw (AW3Q93R3W4)";
 				INFOPLIST_FILE = hoc22/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.hoc22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b2c1a749-02ba-49ac-bc6b-34b31051ff32";
 			};
 			name = Debug;
 		};
 		60DF12861D00285C00AEEB30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8250160F29C2D9FC0332F85E /* Pods-hoc22.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = hoc22/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.hoc22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -290,6 +385,7 @@
 				60DF12861D00285C00AEEB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

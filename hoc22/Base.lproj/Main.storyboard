@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h5S-64-mPJ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hoc22" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,9 +19,145 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="Uic-iy-y0D"/>
+                    <navigationItem key="navigationItem" id="p4Q-Vx-hF3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="158" y="1602"/>
+        </scene>
+        <!--YouTube-->
+        <scene sceneID="Uoo-se-fIz">
+            <objects>
+                <viewController id="Lve-1X-09P" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="999-mj-2Qf"/>
+                        <viewControllerLayoutGuide type="bottom" id="aJ3-on-Zis"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ctc-dE-BbT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="YouTube" image="youtube_icon" id="MB3-mv-G7E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHF-7r-dE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="859"/>
+        </scene>
+        <!--Twitch-->
+        <scene sceneID="sGs-YL-g0e">
+            <objects>
+                <viewController id="TWf-HJ-9is" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yx4-dJ-pa4"/>
+                        <viewControllerLayoutGuide type="bottom" id="VvJ-mf-bCf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nDb-tN-H09">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zth-RM-F1G">
+                                <rect key="frame" x="20" y="20" width="560" height="282"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wlu-4P-2Ia">
+                                <rect key="frame" x="183" y="310" width="225" height="29"/>
+                                <segments>
+                                    <segment title="Live"/>
+                                    <segment title="Past Broadcasts"/>
+                                </segments>
+                            </segmentedControl>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-o0-htS">
+                                <rect key="frame" x="0.0" y="346" width="600" height="254"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WBT-Xa-azg">
+                                <rect key="frame" x="0.0" y="346" width="600" height="254"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zth-RM-F1G" firstAttribute="leading" secondItem="nDb-tN-H09" secondAttribute="leadingMargin" id="3UD-ZL-PkV">
+                                <variation key="heightClass=compact-widthClass=compact" constant="45"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="WBT-Xa-azg" secondAttribute="trailing" constant="-20" id="9NW-oL-2oN"/>
+                            <constraint firstItem="WBT-Xa-azg" firstAttribute="bottom" secondItem="nDb-tN-H09" secondAttribute="bottomMargin" id="Dnl-Tf-u3m"/>
+                            <constraint firstItem="BRL-o0-htS" firstAttribute="leading" secondItem="nDb-tN-H09" secondAttribute="leadingMargin" constant="-20" id="I5u-hg-hzW"/>
+                            <constraint firstItem="Zth-RM-F1G" firstAttribute="top" secondItem="yx4-dJ-pa4" secondAttribute="bottom" id="Mfq-RW-o10"/>
+                            <constraint firstItem="BRL-o0-htS" firstAttribute="bottom" secondItem="nDb-tN-H09" secondAttribute="bottomMargin" id="Rrg-RX-ewk"/>
+                            <constraint firstItem="WBT-Xa-azg" firstAttribute="top" secondItem="wlu-4P-2Ia" secondAttribute="bottom" constant="8" id="SSx-Qw-rh7"/>
+                            <constraint firstItem="wlu-4P-2Ia" firstAttribute="top" secondItem="Zth-RM-F1G" secondAttribute="bottom" constant="8" id="Tdd-5I-63b"/>
+                            <constraint firstItem="BRL-o0-htS" firstAttribute="top" secondItem="wlu-4P-2Ia" secondAttribute="bottom" constant="8" id="Yb9-B8-Js9"/>
+                            <constraint firstItem="VvJ-mf-bCf" firstAttribute="top" secondItem="Zth-RM-F1G" secondAttribute="bottom" constant="249" id="ctB-Q9-Icl">
+                                <variation key="heightClass=compact" constant="8"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="178"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="445"/>
+                            </constraint>
+                            <constraint firstItem="Zth-RM-F1G" firstAttribute="trailing" secondItem="nDb-tN-H09" secondAttribute="trailingMargin" id="iS8-MI-1ME"/>
+                            <constraint firstItem="BRL-o0-htS" firstAttribute="leading" secondItem="nDb-tN-H09" secondAttribute="leadingMargin" constant="-20" id="nRr-x0-j3Q"/>
+                            <constraint firstItem="wlu-4P-2Ia" firstAttribute="top" secondItem="Zth-RM-F1G" secondAttribute="bottom" constant="8" id="pGH-PF-5hY">
+                                <variation key="heightClass=compact" constant="-323"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="13"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="wlu-4P-2Ia" firstAttribute="leading" secondItem="nDb-tN-H09" secondAttribute="leadingMargin" constant="163" id="pzU-xg-twI">
+                                <variation key="heightClass=compact" constant="335"/>
+                                <variation key="widthClass=compact" constant="68"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="68"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="BRL-o0-htS" secondAttribute="trailing" constant="-20" id="sc7-ka-yCa"/>
+                            <constraint firstItem="Zth-RM-F1G" firstAttribute="trailing" secondItem="nDb-tN-H09" secondAttribute="trailingMargin" id="xPm-Hz-XYd">
+                                <variation key="heightClass=compact" constant="-233"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="-45"/>
+                            </constraint>
+                            <constraint firstItem="WBT-Xa-azg" firstAttribute="leading" secondItem="nDb-tN-H09" secondAttribute="leadingMargin" constant="-20" id="zg8-Ao-wWp">
+                                <variation key="heightClass=compact" constant="335"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iS8-MI-1ME"/>
+                                <exclude reference="I5u-hg-hzW"/>
+                                <exclude reference="Tdd-5I-63b"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="I5u-hg-hzW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Twitch" image="twitch_icon" id="h2l-RI-nwI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e9X-4H-efi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="156" y="177"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="3gN-5S-pet">
+            <objects>
+                <tabBarController modalTransitionStyle="flipHorizontal" id="h5S-64-mPJ" customClass="MainTabBarController" customModule="hoc22" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yzY-Kz-ie2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ehj-Mx-pP1"/>
+                        <segue destination="TWf-HJ-9is" kind="relationship" relationship="viewControllers" id="4az-c0-PgM"/>
+                        <segue destination="Lve-1X-09P" kind="relationship" relationship="viewControllers" id="A8P-FR-zRp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NEi-M8-YTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-770" y="977"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="twitch_icon" width="24" height="24"/>
+        <image name="youtube_icon" width="24" height="24"/>
+    </resources>
 </document>

@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		60DF126F1D00285B00AEEB30 /* hoc22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoc22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DF126F1D00285B00AEEB30 /* HOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DF12721D00285C00AEEB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DF12741D00285C00AEEB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60DF12771D00285C00AEEB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		60DF12701D00285B00AEEB30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60DF126F1D00285B00AEEB30 /* hoc22.app */,
+				60DF126F1D00285B00AEEB30 /* HOC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60DF126E1D00285B00AEEB30 /* hoc22 */ = {
+		60DF126E1D00285B00AEEB30 /* HOC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60DF12841D00285C00AEEB30 /* Build configuration list for PBXNativeTarget "hoc22" */;
+			buildConfigurationList = 60DF12841D00285C00AEEB30 /* Build configuration list for PBXNativeTarget "HOC" */;
 			buildPhases = (
 				C81002F89F9369AE6F17C448 /* [CP] Check Pods Manifest.lock */,
 				60DF126B1D00285B00AEEB30 /* Sources */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = hoc22;
+			name = HOC;
 			productName = hoc22;
-			productReference = 60DF126F1D00285B00AEEB30 /* hoc22.app */;
+			productReference = 60DF126F1D00285B00AEEB30 /* HOC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60DF126A1D00285B00AEEB30 /* Build configuration list for PBXProject "hoc22" */;
+			buildConfigurationList = 60DF126A1D00285B00AEEB30 /* Build configuration list for PBXProject "HOC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60DF126E1D00285B00AEEB30 /* hoc22 */,
+				60DF126E1D00285B00AEEB30 /* HOC */,
 			);
 		};
 /* End PBXProject section */
@@ -346,7 +346,7 @@
 				INFOPLIST_FILE = hoc22/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.hoc22;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HOC;
 				PROVISIONING_PROFILE = "b2c1a749-02ba-49ac-bc6b-34b31051ff32";
 			};
 			name = Debug;
@@ -361,7 +361,7 @@
 				INFOPLIST_FILE = hoc22/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.hoc22;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HOC;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60DF126A1D00285B00AEEB30 /* Build configuration list for PBXProject "hoc22" */ = {
+		60DF126A1D00285B00AEEB30 /* Build configuration list for PBXProject "HOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60DF12821D00285C00AEEB30 /* Debug */,
@@ -378,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60DF12841D00285C00AEEB30 /* Build configuration list for PBXNativeTarget "hoc22" */ = {
+		60DF12841D00285C00AEEB30 /* Build configuration list for PBXNativeTarget "HOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60DF12851D00285C00AEEB30 /* Debug */,

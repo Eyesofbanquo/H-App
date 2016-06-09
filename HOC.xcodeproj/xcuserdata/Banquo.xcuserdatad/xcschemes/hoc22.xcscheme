@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "60DF126E1D00285B00AEEB30"
-               BuildableName = "hoc22.app"
-               BlueprintName = "hoc22"
-               ReferencedContainer = "container:hoc22.xcodeproj">
+               BuildableName = "House of Chaos.app"
+               BlueprintName = "House of Chaos"
+               ReferencedContainer = "container:House of Chaos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60DF126E1D00285B00AEEB30"
-            BuildableName = "hoc22.app"
-            BlueprintName = "hoc22"
-            ReferencedContainer = "container:hoc22.xcodeproj">
+            BuildableName = "House of Chaos.app"
+            BlueprintName = "House of Chaos"
+            ReferencedContainer = "container:House of Chaos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60DF126E1D00285B00AEEB30"
-            BuildableName = "hoc22.app"
-            BlueprintName = "hoc22"
-            ReferencedContainer = "container:hoc22.xcodeproj">
+            BuildableName = "House of Chaos.app"
+            BlueprintName = "House of Chaos"
+            ReferencedContainer = "container:House of Chaos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60DF126E1D00285B00AEEB30"
-            BuildableName = "hoc22.app"
-            BlueprintName = "hoc22"
-            ReferencedContainer = "container:hoc22.xcodeproj">
+            BuildableName = "House of Chaos.app"
+            BlueprintName = "House of Chaos"
+            ReferencedContainer = "container:House of Chaos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

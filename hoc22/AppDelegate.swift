@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 import CoreData
 import Alamofire
 
@@ -20,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        UITabBar.appearance().tintColor = UIColor.purpleColor()
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
+        
         let settings = UIUserNotificationSettings(forTypes: [.Sound, .Alert, .Badge], categories: nil)
         UIApplication.sharedApplication().registerUserNotificationSettings(settings)
         
@@ -32,14 +36,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken:NSData){
-        print("DEVICE TOKEN = \(deviceToken)")
+        Alamofire.request(.POST, "https://guarded-wave-29413.herokuapp.com/database", parameters: ["id":"\(deviceToken)"]).responseJSON(completionHandler: {
+            data in
+        })
     }
     
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
         print(error)
     }
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
-        print(userInfo)
+        if application.applicationState == UIApplicationState.Active {
+            //for future use
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {

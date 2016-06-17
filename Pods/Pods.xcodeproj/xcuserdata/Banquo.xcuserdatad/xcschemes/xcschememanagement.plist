@@ -8,16 +8,32 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-hoc22.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>youtube-ios-player-helper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0799B405918F54AAEEB4D34DCE728263</key>
+		<key>022CF868F22F0026AD1F2095062B7DEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F3FDF55E0817D3594F354C7E6B69FAA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

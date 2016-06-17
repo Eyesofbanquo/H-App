@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6073B7A81D08CDCE002DE928 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */; };
+		600496C51D0E763100D31607 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 600496C41D0E763100D31607 /* YTPlayerView.m */; };
+		600496C71D0E784100D31607 /* YouTubeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600496C61D0E784100D31607 /* YouTubeTableViewCell.swift */; };
+		600496C91D0E7FBF00D31607 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600496C81D0E7FBF00D31607 /* HomeViewController.swift */; };
+		600496CB1D0F5D5700D31607 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600496CA1D0F5D5700D31607 /* Launch Screen.storyboard */; };
+		60C33BEA1D0BA70900BD4BD7 /* TwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C33BE91D0BA70900BD4BD7 /* TwitchViewController.swift */; };
+		60C33BEC1D0BB05900BD4BD7 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C33BEB1D0BB05900BD4BD7 /* CustomNavController.swift */; };
+		60C33BEE1D0BC6C500BD4BD7 /* TwitchBroadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C33BED1D0BC6C500BD4BD7 /* TwitchBroadcast.swift */; };
+		60C33BF11D0DE89300BD4BD7 /* YouTubeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C33BF01D0DE89300BD4BD7 /* YouTubeTableViewController.swift */; };
+		60C33BF31D0DE8EA00BD4BD7 /* YouTubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C33BF21D0DE8EA00BD4BD7 /* YouTubeVideo.swift */; };
 		60DF12731D00285C00AEEB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF12721D00285C00AEEB30 /* AppDelegate.swift */; };
-		60DF12751D00285C00AEEB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF12741D00285C00AEEB30 /* ViewController.swift */; };
 		60DF12781D00285C00AEEB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DF12761D00285C00AEEB30 /* Main.storyboard */; };
 		60DF127B1D00285C00AEEB30 /* hoc22.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60DF12791D00285C00AEEB30 /* hoc22.xcdatamodeld */; };
 		60DF127D1D00285C00AEEB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DF127C1D00285C00AEEB30 /* Assets.xcassets */; };
-		60DF12801D00285C00AEEB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DF127E1D00285C00AEEB30 /* LaunchScreen.storyboard */; };
 		7CBC8AF25BCB14ABDB80A7A7 /* Pods_hoc22.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB89430FC9FE1FB9BA94266F /* Pods_hoc22.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		600496C21D0E74C900D31607 /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		600496C31D0E763100D31607 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		600496C41D0E763100D31607 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		600496C61D0E784100D31607 /* YouTubeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeTableViewCell.swift; sourceTree = "<group>"; };
+		600496C81D0E7FBF00D31607 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		600496CA1D0F5D5700D31607 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		60C33BE91D0BA70900BD4BD7 /* TwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitchViewController.swift; sourceTree = "<group>"; };
+		60C33BEB1D0BB05900BD4BD7 /* CustomNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
+		60C33BED1D0BC6C500BD4BD7 /* TwitchBroadcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitchBroadcast.swift; sourceTree = "<group>"; };
+		60C33BF01D0DE89300BD4BD7 /* YouTubeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeTableViewController.swift; sourceTree = "<group>"; };
+		60C33BF21D0DE8EA00BD4BD7 /* YouTubeVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeVideo.swift; sourceTree = "<group>"; };
 		60DF126F1D00285B00AEEB30 /* HOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DF12721D00285C00AEEB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60DF12741D00285C00AEEB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60DF12771D00285C00AEEB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60DF127A1D00285C00AEEB30 /* hoc22.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hoc22.xcdatamodel; sourceTree = "<group>"; };
 		60DF127C1D00285C00AEEB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		60DF127F1D00285C00AEEB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60DF12811D00285C00AEEB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8250160F29C2D9FC0332F85E /* Pods-hoc22.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoc22.release.xcconfig"; path = "Pods/Target Support Files/Pods-hoc22/Pods-hoc22.release.xcconfig"; sourceTree = "<group>"; };
 		BB89430FC9FE1FB9BA94266F /* Pods_hoc22.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hoc22.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,7 +61,7 @@
 		60DF12661D00285B00AEEB30 = {
 			isa = PBXGroup;
 			children = (
-				60DF12711D00285B00AEEB30 /* hoc22 */,
+				60DF12711D00285B00AEEB30 /* HOC */,
 				60DF12701D00285B00AEEB30 /* Products */,
 				656986040AC47D129181063D /* Pods */,
 				DC1338CF971DED807A7CE2BF /* Frameworks */,
@@ -62,18 +76,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60DF12711D00285B00AEEB30 /* hoc22 */ = {
+		60DF12711D00285B00AEEB30 /* HOC */ = {
 			isa = PBXGroup;
 			children = (
+				600496C81D0E7FBF00D31607 /* HomeViewController.swift */,
+				600496C31D0E763100D31607 /* YTPlayerView.h */,
+				600496C41D0E763100D31607 /* YTPlayerView.m */,
 				60DF12721D00285C00AEEB30 /* AppDelegate.swift */,
-				60DF12741D00285C00AEEB30 /* ViewController.swift */,
-				6073B7A71D08CDCE002DE928 /* MainTabBarController.swift */,
 				60DF12761D00285C00AEEB30 /* Main.storyboard */,
 				60DF127C1D00285C00AEEB30 /* Assets.xcassets */,
-				60DF127E1D00285C00AEEB30 /* LaunchScreen.storyboard */,
 				60DF12811D00285C00AEEB30 /* Info.plist */,
 				60DF12791D00285C00AEEB30 /* hoc22.xcdatamodeld */,
+				60C33BE91D0BA70900BD4BD7 /* TwitchViewController.swift */,
+				60C33BF01D0DE89300BD4BD7 /* YouTubeTableViewController.swift */,
+				60C33BEB1D0BB05900BD4BD7 /* CustomNavController.swift */,
+				60C33BED1D0BC6C500BD4BD7 /* TwitchBroadcast.swift */,
+				60C33BF21D0DE8EA00BD4BD7 /* YouTubeVideo.swift */,
+				600496C61D0E784100D31607 /* YouTubeTableViewCell.swift */,
+				600496C21D0E74C900D31607 /* bridging-header.h */,
+				600496CA1D0F5D5700D31607 /* Launch Screen.storyboard */,
 			);
+			name = HOC;
 			path = hoc22;
 			sourceTree = "<group>";
 		};
@@ -161,7 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DF12801D00285C00AEEB30 /* LaunchScreen.storyboard in Resources */,
+				600496CB1D0F5D5700D31607 /* Launch Screen.storyboard in Resources */,
 				60DF127D1D00285C00AEEB30 /* Assets.xcassets in Resources */,
 				60DF12781D00285C00AEEB30 /* Main.storyboard in Resources */,
 			);
@@ -222,10 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DF12751D00285C00AEEB30 /* ViewController.swift in Sources */,
+				60C33BEC1D0BB05900BD4BD7 /* CustomNavController.swift in Sources */,
+				600496C51D0E763100D31607 /* YTPlayerView.m in Sources */,
+				60C33BEA1D0BA70900BD4BD7 /* TwitchViewController.swift in Sources */,
+				60C33BEE1D0BC6C500BD4BD7 /* TwitchBroadcast.swift in Sources */,
+				60C33BF31D0DE8EA00BD4BD7 /* YouTubeVideo.swift in Sources */,
+				600496C91D0E7FBF00D31607 /* HomeViewController.swift in Sources */,
+				600496C71D0E784100D31607 /* YouTubeTableViewCell.swift in Sources */,
 				60DF127B1D00285C00AEEB30 /* hoc22.xcdatamodeld in Sources */,
-				6073B7A81D08CDCE002DE928 /* MainTabBarController.swift in Sources */,
 				60DF12731D00285C00AEEB30 /* AppDelegate.swift in Sources */,
+				60C33BF11D0DE89300BD4BD7 /* YouTubeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,19 +269,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		60DF127E1D00285C00AEEB30 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60DF127F1D00285C00AEEB30 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60DF12821D00285C00AEEB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29EB8445262847E4E450B54 /* Pods-hoc22.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -292,6 +314,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = hoc22;
 				PROVISIONING_PROFILE = "b2c1a749-02ba-49ac-bc6b-34b31051ff32";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -331,6 +354,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = hoc22;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -348,6 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.hoc22;
 				PRODUCT_NAME = HOC;
 				PROVISIONING_PROFILE = "b2c1a749-02ba-49ac-bc6b-34b31051ff32";
+				SWIFT_OBJC_BRIDGING_HEADER = "hoc22/bridging-header.h";
 			};
 			name = Debug;
 		};
@@ -363,6 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.hoc22;
 				PRODUCT_NAME = HOC;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "hoc22/bridging-header.h";
 			};
 			name = Release;
 		};
